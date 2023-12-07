@@ -18,7 +18,7 @@ int main(){
         for(int j = 1; j<=10; j++){
             // calcula total por tabuada
             resultado[i] = resultado[i] + (i*j);
-            //calcula o tatal de todas as tabuadas;
+            //calcula o ta`al de todas as tabuadas;
             totalDaSoma = totalDaSoma + (i*j);
             printf("\n %d X %d = %d", i, j, i*j);
         }
@@ -27,6 +27,6 @@ int main(){
     }
 
     printf("\n O TOTAL DA SOMA DAS TABUADAS hE: %d \n", totalDaSoma);
-    
+
     return 0;
 }
